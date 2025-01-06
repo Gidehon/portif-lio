@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    box-sizing: auto;
+    background-color: black;
+    
+        
+}
+.apresentacao {
+    display: flex;
+    align-items: center;
+    margin: 255px;
+    justify-content:space-between;
+    background-size: center;
+    font-size: 20px;
+
+}
+.apresentacao_cont {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+.apresentacao_redes {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    padding-inline: 160px;
+    
+}
+.titulo_principal {
+color: whitesmoke;
+font-size: 24px;
+font-family: "Krona One", serif;
+font-weight: 5px;
+font-style: normal;
+
+}
+.titulo_principal2 {
+    color: #22d4fd;
+    font-family: "Montserrat", serif; 
+    font-style: italic; 
+    height: 50px; 
+    
+}
+.titulo_sec {
+    color: whitesmoke;
+    font-family: "Montserrat", serif; 
+    border-radius: 10px;
+    width: 850px; 
+    
+}
+.cor_txt {     
+    color: #22d4fd;
+    font-size: large;
+}
+.nome {
+    color: #22d4fd;
+    font-family: "Montserrat", serif;
+    font-size: large;   
+    
+}
+.link {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    border: 2px solid #22d4fd;
+    /* width: 270px; */
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 60px;
+    padding: 21.5px;
+    text-decoration: none;
+    color: #22d4fd;
+    font-family: 'montserrat', sans-serif; 
+    gap: 16px;  
+    margin-bottom: 10px; 
+   
+}
+.link:hover {
+    background-color: #272727
+
+}
+.linha_links {
+  padding-inline: 100px;
+}
+.foto1 {
+  width: 380px;
+  border-radius: 60px;
+  box-shadow: 10px 10px; color:#22d4fd;
+}
+.fundo {
+    color: black;
+    background-color: #22d4fd;
+    padding: 25px;
+    text-align: center;
+    font-family: 'montserrat', 'sanserif';
+    font-style: italic;
+}
