@@ -26,8 +26,7 @@ body {
     padding: 8% 7%;
     justify-content:space-between;
     background-size: center;
-    font-size: 25px;
-    
+    font-size: 1,5rem;    
 }
 .cabecalho {
     padding: 2% 0% 0% 7%;
@@ -38,30 +37,39 @@ body {
     gap: 80px;
 
 }
+.cabecalho_menu_link:hover {
+    color: var(--cor-secundaria)
+    
+} 
 .cabecalho_menu_link {
     color: var(--cor-terciaria);
     font-family: var(--font-primaria);
-    font-size: 24px;
+    font-size: 1,5rem;
     font-weight: 600px;
     text-decoration: none;
 
 }
 .apresentacao-cont {
-   
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
 }
 .apresentacao_redes {
     text-align: center;
     font-family: var(--font-secundaria);
-    font-size: 15px;
+    font-size: 3,125rem;
     color: var(--cor-secundaria);
     margin-bottom: 5px;
     padding-inline: 16px;
     padding: 5px;
+    width: 50%;
+    
     
 }
 .titulo_principal {
 color: var(--cor-secundaria);
-font-size: 24px;
+font-size: 3,125rem;
 font-family: var(--font-primaria);
 font-weight: 5px;
 font-style: normal;
@@ -78,19 +86,17 @@ font-style: normal;
     color: var(--cor-secundaria);
     font-family: var(--font-secundaria); 
     border-radius: 10px;
-    width: 850px; 
-   
-
     
 }
 .cor_txt {     
     color: var(--cor-terciaria);
-    font-size: large;
+    font-size: 1,5rem;
 }
 .nome {
     color: var(--cor-terciaria);
     font-family: var(--font-secundaria);
-    font-size: 20px   
+    font-size: 1,25rem; 
+    width: 50%;  
     
 }
 .link {
@@ -99,7 +105,7 @@ font-style: normal;
     border: 2px solid var(--cor-terciaria);
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1,5rem;
     font-weight: 60px;
     padding: 21px;
     text-decoration: none;
@@ -107,7 +113,8 @@ font-style: normal;
     font-family: var(--font-secundaria); 
     gap: 10px;  
     margin-bottom: 15px; 
-   
+    width: 50%;
+    
 }
 .link:hover {
     background-color: var(--cor-terciaria)
@@ -115,9 +122,10 @@ font-style: normal;
 .linha_links {
   padding-inline: 230px;
   padding: 24px;
+ 
 }
 .foto1 {
-  width: 380px;
+  width: 25%;
   border-radius: 60px;
   box-shadow: 10px 10px; color:var(--cor-terciaria);
 }
@@ -129,10 +137,6 @@ font-style: normal;
     font-family: var(--font-secundaria);
     font-style: italic;
 }
-.fundo:hover {
-    background-color: var(--cor-secundaria);
-    color:black;
-}
 
 .sobre_mim {
     color: black;
@@ -141,5 +145,5 @@ font-style: normal;
     font-family: var(--cor-terciaria);
     font-style: italic;
     padding: 2px;
-    font-size: large;
+    font-size: 2,0%;
 }
