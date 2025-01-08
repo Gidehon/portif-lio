@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap');
+:root {
+--cor-primaria: #0B192C;
+--cor-secundaria: #f6f6f6;
+--cor-terciaria: #C62300;
+--cor-hover: #272727;
+
+--font-primaria: 'Krona One', serif;
+--font-secundaria:'montserrat', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: auto;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    
+        
+}
+.apresentacao {
+    display: flex;
+    align-items: center;
+    padding: 8% 7%;
+    justify-content:space-between;
+    background-size: center;
+    font-size: 25px;
+    
+}
+.cabecalho {
+    padding: 2% 0% 0% 7%;
+    
+}
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+
+}
+.cabecalho_menu_link {
+    color: var(--cor-terciaria);
+    font-family: var(--font-primaria);
+    font-size: 24px;
+    font-weight: 600px;
+    text-decoration: none;
+
+}
+.apresentacao-cont {
+   
+}
+.apresentacao_redes {
+    text-align: center;
+    font-family: var(--font-secundaria);
+    font-size: 15px;
+    color: var(--cor-secundaria);
+    margin-bottom: 5px;
+    padding-inline: 16px;
+    padding: 5px;
+    
+}
+.titulo_principal {
+color: var(--cor-secundaria);
+font-size: 24px;
+font-family: var(--font-primaria);
+font-weight: 5px;
+font-style: normal;
+
+}
+.titulo_principal2 {
+    color: var(--cor-terciaria);
+    font-family: var(--font-secundaria); 
+    font-style: italic; 
+    height: 50px; 
+    
+}
+.titulo_sec {
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria); 
+    border-radius: 10px;
+    width: 850px; 
+   
+
+    
+}
+.cor_txt {     
+    color: var(--cor-terciaria);
+    font-size: large;
+}
+.nome {
+    color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
+    font-size: 20px   
+    
+}
+.link {
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--cor-terciaria);
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 60px;
+    padding: 21px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria); 
+    gap: 10px;  
+    margin-bottom: 15px; 
+   
+}
+.link:hover {
+    background-color: var(--cor-terciaria)
+}
+.linha_links {
+  padding-inline: 230px;
+  padding: 24px;
+}
+.foto1 {
+  width: 380px;
+  border-radius: 60px;
+  box-shadow: 10px 10px; color:var(--cor-terciaria);
+}
+.fundo {
+    color: #f6f6f6;
+    background-color: var(--cor-terciaria);
+    padding: 25px;
+    text-align: center;
+    font-family: var(--font-secundaria);
+    font-style: italic;
+}
+.fundo:hover {
+    background-color: var(--cor-secundaria);
+    color:black;
+}
+
+.sobre_mim {
+    color: black;
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-family: var(--cor-terciaria);
+    font-style: italic;
+    padding: 2px;
+    font-size: large;
+}
