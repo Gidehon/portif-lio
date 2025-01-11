@@ -155,9 +155,6 @@ font-style: normal;
 @media (max-width: 1200px) {
 
     .cabecalho_menu {
-        flex-direction: row; 
-    }
-    .cabecalho_menu {
         justify-content: center;
     }
     .apresentacao {
