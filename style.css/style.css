@@ -28,16 +28,10 @@ body {
     gap: 82px;   
 }
 .cabecalho {
-<<<<<<< HEAD
-    padding: 5% 15%;
-=======
     display: flex;
-    padding: 2% 14%;
->>>>>>> 2885b871d3d64f91204d8c813c2d5a2e293121b8
-    
+    padding: 2% 14%;   
     align-items: center;
-    
- 
+
 }
 .cabecalho_menu {
     display: flex;
@@ -130,6 +124,7 @@ font-style: normal;
 }
 
 .linha_links {
+  align-items: center;
   padding-inline: 230px;
   padding: 24px;
  
@@ -175,4 +170,5 @@ font-style: normal;
     .foto1 {
         width: 100%
     }
+ 
 }
