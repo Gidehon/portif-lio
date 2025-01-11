@@ -30,7 +30,7 @@ body {
     gap: 82px;   
 }
 .cabecalho {
-    padding: 2% 0% 0% 7%;
+    padding: 5% 15%;
     
 }
 .cabecalho_menu {
@@ -76,7 +76,7 @@ font-weight: 5px;
 font-style: normal;
 
 }
-.titulo_principal2 {
+.cor-titulo {
     color: var(--cor-terciaria);
     font-family: var(--font-secundaria); 
     font-style: italic; 
@@ -127,8 +127,8 @@ font-style: normal;
 }
 .foto1 {
   width: 25%;
-  border-radius: 60px;
-  box-shadow: 10px 10px; color:var(--cor-terciaria);
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px; color:var(--cor-secundaria)
   
 }
 .fundo {
@@ -149,7 +149,18 @@ font-style: normal;
     font-size: 2,0%;
 }
 @media (max-width: 1200px) {
+
+    .cabecalho_menu {
+        flex-direction: row; 
+    }
+    .cabecalho_menu {
+        justify-content: center;
+    }
     .apresentacao {
         flex-direction: column-reverse;
+    }
+    .apresentacao-cont {
+        width: auto;
+
     }
 }
